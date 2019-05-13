@@ -4,10 +4,28 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>csc690-TodoApp.xcscheme_^#shared#^_</key>
+		<key>csc690-TodoApp 2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>593C36E522487F09001605DD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>593C36F922487F0C001605DD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>593C370422487F0C001605DD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

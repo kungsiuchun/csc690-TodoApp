@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5910E2402287E22500747C4C /* TodoListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5910E23F2287E22500747C4C /* TodoListCell.swift */; };
 		593C36EA22487F09001605DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593C36E922487F09001605DD /* AppDelegate.swift */; };
-		593C36EC22487F09001605DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593C36EB22487F09001605DD /* ViewController.swift */; };
+		593C36EC22487F09001605DD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593C36EB22487F09001605DD /* HomeViewController.swift */; };
 		593C36EF22487F09001605DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 593C36ED22487F09001605DD /* Main.storyboard */; };
 		593C36F122487F0C001605DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 593C36F022487F0C001605DD /* Assets.xcassets */; };
 		593C36F422487F0C001605DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 593C36F222487F0C001605DD /* LaunchScreen.storyboard */; };
 		593C36FF22487F0C001605DD /* csc690_TodoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593C36FE22487F0C001605DD /* csc690_TodoAppTests.swift */; };
 		593C370A22487F0C001605DD /* csc690_TodoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593C370922487F0C001605DD /* csc690_TodoAppUITests.swift */; };
+		593C3718224884A7001605DD /* NewTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593C3717224884A7001605DD /* NewTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5910E23F2287E22500747C4C /* TodoListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListCell.swift; sourceTree = "<group>"; };
 		593C36E622487F09001605DD /* csc690-TodoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "csc690-TodoApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		593C36E922487F09001605DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		593C36EB22487F09001605DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		593C36EB22487F09001605DD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		593C36EE22487F09001605DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		593C36F022487F0C001605DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		593C36F322487F0C001605DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		593C370522487F0C001605DD /* csc690-TodoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "csc690-TodoAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		593C370922487F0C001605DD /* csc690_TodoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = csc690_TodoAppUITests.swift; sourceTree = "<group>"; };
 		593C370B22487F0C001605DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		593C3717224884A7001605DD /* NewTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				593C36E922487F09001605DD /* AppDelegate.swift */,
-				593C36EB22487F09001605DD /* ViewController.swift */,
+				593C36EB22487F09001605DD /* HomeViewController.swift */,
+				5910E23F2287E22500747C4C /* TodoListCell.swift */,
+				593C3717224884A7001605DD /* NewTaskViewController.swift */,
+				593C36F522487F0C001605DD /* Info.plist */,
 				593C36ED22487F09001605DD /* Main.storyboard */,
 				593C36F022487F0C001605DD /* Assets.xcassets */,
 				593C36F222487F0C001605DD /* LaunchScreen.storyboard */,
-				593C36F522487F0C001605DD /* Info.plist */,
 			);
 			path = "csc690-TodoApp";
 			sourceTree = "<group>";
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				593C36EC22487F09001605DD /* ViewController.swift in Sources */,
+				5910E2402287E22500747C4C /* TodoListCell.swift in Sources */,
+				593C3718224884A7001605DD /* NewTaskViewController.swift in Sources */,
+				593C36EC22487F09001605DD /* HomeViewController.swift in Sources */,
 				593C36EA22487F09001605DD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "csc690-TodoApp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -440,7 +449,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "csc600.csc690-TodoApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -450,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "csc690-TodoApp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,7 +467,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "csc600.csc690-TodoApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
